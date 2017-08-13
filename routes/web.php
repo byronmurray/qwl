@@ -11,6 +11,14 @@
 |
 */
 
+// uncomment this when you go live
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+
+
+
+Auth::routes();
+
+//Route::get('/', 'HomeController@index')->name('home');
