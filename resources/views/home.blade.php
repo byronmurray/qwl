@@ -65,7 +65,67 @@
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-      ...
+
+      <div class="modal-header">
+        <h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          
+
+          <form>
+
+            <select class="custom-select">
+              <option selected>Start Time</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
+            <select class="custom-select">
+              <option selected>Finish Time</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
+            <div class="form-group">
+              <label for="exampleSelect1">Job Code</label>
+              <select class="form-control" id="exampleSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+     
+            <div class="form-group">
+              <label for="exampleTextarea">Job Description</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleTextarea">Parts used</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Select Date</label>
+              <input type="text" class="form-control" placeholder="Enter date">
+            </div>
+              
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+
+
+
+
+
+      </div>
     </div>
   </div>
 </div>
